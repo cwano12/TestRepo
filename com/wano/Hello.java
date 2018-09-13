@@ -1,8 +1,8 @@
 package com.wano;
 
-public class Hello {
+class Hello {
 
-    public static void main(String[] args) {
-        System.out.println("Hello world");
+    String sayHello() {
+        return "Hello world";
     }
 }
